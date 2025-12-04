@@ -21,7 +21,9 @@
 - [System Requirements](#-system-requirements-)
 - [Getting Started](#-getting-started-with-netguard-pro-)
 - [Licensing & Pricing](#-licensing--pricing-)
-- [Glossary](#-quick-glossary-)
+- [Technical Architecture](#technical-architecture-)
+- [Contributing](#contributing-)
+- [Quick Glossary](#quick-glossary-)
 - [Contact & Support](#-contact--support-)
 
 ## 🚀 Introduction ![intro](https://img.shields.io/badge/section-Introduction-blue)
@@ -135,67 +137,66 @@ NetGuard Pro combines real-time monitoring, intelligent automation, and modern c
 
 ---
 
-## Technical Architecture
+## Technical Architecture ![architecture](https://img.shields.io/badge/section-Architecture-blueviolet)
 
-NetGuard Pro is built on a distributed, modular architecture designed for performance, security, and scalability. Its components work together to provide real-time visibility, intelligent automation, and seamless integration with complex environments.
+NetGuard Pro is built on a distributed, modular architecture designed for performance, security, and enterprise scalability. Each component operates independently while communicating securely to maintain real-time visibility and consistent system behavior.
 
 ### Core Components
 
 **Monitoring Engine**  
-Collects and analyzes traffic across L2–L7, identifying anomalies, performance degradation, and unauthorized activity.
+Captures and analyzes network traffic across layers 2 through 7. Identifies anomalies, unusual behavior, performance issues, and unauthorized activities.
 
 **Policy Engine**  
-Applies dynamic rules based on devices, applications, or network segments with real-time impact analysis.
+Executes dynamic rules defined by administrators. Policies apply to devices, applications, user groups, or network segments, with real-time impact analysis before deployment.
 
 **Event Correlation System**  
-Combines events into meaningful patterns to uncover security incidents or operational issues.
+Aggregates and correlates events to identify patterns, security incidents, and performance risks that would not be visible individually.
 
 **Alerting Layer**  
-Generates prioritized alerts with integrations for Slack, PagerDuty, SIEMs, or custom webhooks.
+Issues prioritized alerts with integrations for Slack, PagerDuty, SIEM platforms, and custom webhooks. Alerts follow severity-based classification.
 
 **Load Balancing & Optimization Layer**  
-Distributes traffic efficiently, improves throughput, and reduces latency using predictive analysis.
+Distributes workload across nodes and services, reducing latency, improving throughput, and preventing congestion using predictive analytics.
 
 **Distributed Node Architecture**  
-Local nodes capture and process traffic securely, communicating with the controller via TLS 1.3.
+Local agents capture traffic and perform pre-processing. Communication between nodes and the controller is secured with TLS 1.3.
 
 **Cloud Integration Layer**  
-Connects natively with AWS, Azure, and Google Cloud to enable hybrid or multi-cloud deployments.
+Provides native connectors for AWS, Azure, and Google Cloud, enabling hybrid and multi-cloud deployments.
 
-### How It Works Internally
+### How the System Works Internally
 
-1. Nodes capture and preprocess traffic.  
-2. Data is normalized and analyzed.  
-3. Correlation identifies patterns and anomalies.  
-4. Policies are applied dynamically.  
-5. Events flow into dashboards and integrations.  
-6. Optimization modules rebalance load when needed.
-
+1. Distributed nodes capture and preprocess traffic.  
+2. Data is normalized and sent to the monitoring engine.  
+3. The event correlation system identifies patterns.  
+4. Policies dynamically adapt based on context.  
+5. Events and alerts flow into the dashboard or external tools.  
+6. Optimization modules rebalance loads and adjust traffic paths.
 ---
 
-## Contributing
+## Contributing ![contribute](https://img.shields.io/badge/section-Contribution-green)
 
-We welcome contributions from developers, network engineers, and security professionals.
+We welcome contributions from developers, network engineers, and cybersecurity specialists who want to improve NetGuard Pro.
 
 ### How to Contribute
 
 1. Fork this repository.  
 2. Create a feature branch:  
    `git checkout -b feature/your-feature-name`  
-3. Commit following conventional commit guidelines.  
-4. Push your branch and open a Pull Request.  
-5. Document your enhancements clearly.  
-6. Ensure compatibility with existing architecture.
+3. Use meaningful commit messages following conventional commits.  
+4. Push the branch and open a Pull Request.  
+5. Add documentation or examples for new features.  
+6. Maintain compatibility with existing architecture and security requirements.
 
 ### Contribution Guidelines
 
-- Keep code clean and modular.  
-- Avoid unnecessary breaking changes.  
+- Ensure code is clean, modular, and well-structured.  
+- Avoid breaking changes unless discussed in an Issue.  
+- Include tests or reproducible examples when possible.  
 - Follow directory and naming conventions.  
-- Include tests or reproducible cases.  
-- Open an Issue for major proposals.
+- Coordinate major changes through Issues before implementation.
 
-All contributions undergo review to maintain security, stability, and alignment with the project roadmap.
+All contributions are reviewed by the maintainers to ensure quality, security, and alignment with the project roadmap.
 
 ## 📘 Quick Glossary ![glossary](https://img.shields.io/badge/section-Glossary-lightgrey)
 
