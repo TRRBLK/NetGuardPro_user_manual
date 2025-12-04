@@ -5,7 +5,7 @@
 ![enterprise](https://img.shields.io/badge/enterprise-ready-blueviolet)
 ![support](https://img.shields.io/badge/support-SMB%20%26%20Fortune%20500-informational)
 
-![Banner](./assets/netguard_logo.jpg)
+![Banner](./assets/netguard_logo.JPG)
 
 ---
 
