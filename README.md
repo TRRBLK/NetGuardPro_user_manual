@@ -1,9 +1,13 @@
 
-# NetGuard Pro ![version](https://img.shields.io/badge/version-1.0-blue) ![status](https://img.shields.io/badge/status-Stable-brightgreen)
+<h1 align="center">NetGuard Pro</h1>
 
-![platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey)
-![enterprise](https://img.shields.io/badge/enterprise-ready-blueviolet)
-![support](https://img.shields.io/badge/support-SMB%20%26%20Fortune%20500-informational)
+<p align="center">
+  <img src="https://img.shields.io/badge/version-1.0-blue" />
+  <img src="https://img.shields.io/badge/status-Stable-brightgreen" />
+  <img src="https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey" />
+  <img src="https://img.shields.io/badge/enterprise-ready-blueviolet" />
+  <img src="https://img.shields.io/badge/support-SMB%20%26%20Fortune%20500-informational" />
+</p>
 
 ![Banner](./assets/netguard_logo.jpg)
 
