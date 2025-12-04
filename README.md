@@ -135,6 +135,68 @@ NetGuard Pro combines real-time monitoring, intelligent automation, and modern c
 
 ---
 
+## Technical Architecture
+
+NetGuard Pro is built on a distributed, modular architecture designed for performance, security, and scalability. Its components work together to provide real-time visibility, intelligent automation, and seamless integration with complex environments.
+
+### Core Components
+
+**Monitoring Engine**  
+Collects and analyzes traffic across L2–L7, identifying anomalies, performance degradation, and unauthorized activity.
+
+**Policy Engine**  
+Applies dynamic rules based on devices, applications, or network segments with real-time impact analysis.
+
+**Event Correlation System**  
+Combines events into meaningful patterns to uncover security incidents or operational issues.
+
+**Alerting Layer**  
+Generates prioritized alerts with integrations for Slack, PagerDuty, SIEMs, or custom webhooks.
+
+**Load Balancing & Optimization Layer**  
+Distributes traffic efficiently, improves throughput, and reduces latency using predictive analysis.
+
+**Distributed Node Architecture**  
+Local nodes capture and process traffic securely, communicating with the controller via TLS 1.3.
+
+**Cloud Integration Layer**  
+Connects natively with AWS, Azure, and Google Cloud to enable hybrid or multi-cloud deployments.
+
+### How It Works Internally
+
+1. Nodes capture and preprocess traffic.  
+2. Data is normalized and analyzed.  
+3. Correlation identifies patterns and anomalies.  
+4. Policies are applied dynamically.  
+5. Events flow into dashboards and integrations.  
+6. Optimization modules rebalance load when needed.
+
+---
+
+## Contributing
+
+We welcome contributions from developers, network engineers, and security professionals.
+
+### How to Contribute
+
+1. Fork this repository.  
+2. Create a feature branch:  
+   `git checkout -b feature/your-feature-name`  
+3. Commit following conventional commit guidelines.  
+4. Push your branch and open a Pull Request.  
+5. Document your enhancements clearly.  
+6. Ensure compatibility with existing architecture.
+
+### Contribution Guidelines
+
+- Keep code clean and modular.  
+- Avoid unnecessary breaking changes.  
+- Follow directory and naming conventions.  
+- Include tests or reproducible cases.  
+- Open an Issue for major proposals.
+
+All contributions undergo review to maintain security, stability, and alignment with the project roadmap.
+
 ## 📘 Quick Glossary ![glossary](https://img.shields.io/badge/section-Glossary-lightgrey)
 
 - **Event:** A recorded activity detected on the network  
