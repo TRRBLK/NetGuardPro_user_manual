@@ -229,6 +229,8 @@ We welcome contributions from developers, network engineers, and cybersecurity s
 
 All contributions are reviewed by the maintainers to ensure quality, security, and alignment with the project roadmap.
 
+---
+
 ## 📘 Quick Glossary ![glossary](https://img.shields.io/badge/section-Glossary-lightgrey)
 
 - **Event:** A recorded activity detected on the network  
